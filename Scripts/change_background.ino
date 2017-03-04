@@ -61,6 +61,10 @@ void setup()
   delay(500);
 
   Keyboard.print("RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters");
+  
+  delay(1000);
+
+  Keyboard.print("exit");
 
   // Ending stream
   Keyboard.end();
